@@ -31,7 +31,7 @@ int main()
     for(int i=0;i<3;i++)
     s1[i].getinpt();
     ofstream f1;
-    f1.open("C:\\Users\\22sho\\OneDrive\\Desktop\\C++\\helloworld\\prog1\\program1\\Student.txt");
+    f1.open("Student.txt");
     if(!f1)
     { 
         cout<<"Error in opening the read file!! ";
@@ -47,7 +47,7 @@ int main()
     }
     f1.close();
     ifstream f2;
-    f2.open("C:\\Users\\22sho\\OneDrive\\Desktop\\C++\\helloworld\\prog1\\program1\\Student.txt");
+    f2.open("Student.txt");
     while(f2.get(ch));
         cout<<ch;
    
