@@ -1,0 +1,1 @@
+If there is no whitespace between characters then congratulations code did its job.
